@@ -1,2 +1,0 @@
-C:\Users\pr0skilled\dev\webprogbase\labs\lab1\obj\Release\lab1.njsproj.CoreCompileInputs.cache
-C:\Users\pr0skilled\dev\webprogbase\labs\lab1\bin\Microsoft.NodejsTools.WebRole.dll
