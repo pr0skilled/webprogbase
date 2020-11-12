@@ -1,5 +1,5 @@
 const express = require('express');
-const userController = require('../controllers/userController');
+const userController = require('./../controllers/userController');
 const router = express.Router();
 
 /**
@@ -16,6 +16,8 @@ router.get('/:id', userController.getUserById);
  * returns all users
  * @route GET /api/users
  * @group Users - user operations
+ * @param {integer} page.query - page number
+ * @param {integer} per_page.query - items per page
  * @returns {Array.<User>} 200 - User array
  */
 router.get('/', userController.getUsers);

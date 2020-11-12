@@ -3,17 +3,25 @@ const repo = new userRepository("./data/users.json");
 
 module.exports = {
     getUsers(req, res) {
-        res.send(repo.getUsers());
+        const users = repo.getUsers();
+        const page = req.query.page;
+        const per_page = req.query.per_page;
+        const pages_total = Math.ceil(users.length / per_page);
+        if (page && per_page)
+            if (page <= pages_total && page > 0 && per_page > 0)
+                res.status(200).send(users.slice(per_page * (page - 1), page * per_page));
+            else
+                res.sendStatus(400);
+        else
+            res.status(200).send(users);
         res.end;
     },
 
     getUserById(req, res) {
         const user = repo.getUserById(req.params.id);
-        console.log(user);
         if (user)
             res.status(200).send(user);
         else {
-            //res.send(`No user with id ${req.params.id}`);
             res.sendStatus(404);
         }
     },

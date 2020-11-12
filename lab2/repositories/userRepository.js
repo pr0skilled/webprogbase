@@ -25,18 +25,6 @@ class UserRepository {
         }
         return null;
     }
-
-/*    addUser(userModel) {
-        throw new Error("Not implemented");
-    }
-
-    updateUser(userModel) {
-        throw new Error("Not implemented");
-    }
-
-    deleteUser(userId) {
-        throw new Error("Not implemented");
-    }*/
 };
 
 module.exports = UserRepository;
