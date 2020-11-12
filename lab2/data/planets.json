@@ -1,0 +1,45 @@
+{
+    "nextId": 16,
+    "items": [
+        {
+            "id": 1,
+            "name": "Earth",
+            "number": 3,
+            "galaxy": "Milky Way",
+            "temperature": 45,
+            "book_release": "1986-10-13"
+        },
+        {
+            "id": 2,
+            "name": "MARS",
+            "number": 4,
+            "galaxy": "Milky Way",
+            "temperature": -40,
+            "book_release": "2014-02-11T11:30:30"
+        },
+        {
+            "id": 7,
+            "name": "planet",
+            "number": "12",
+            "galaxy": "asd",
+            "temperature": "21",
+            "book_release": "2012-02-11T00:00:00.000Z"
+        },
+        {
+            "id": 8,
+            "name": "MAAAAAARS",
+            "number": 4,
+            "galaxy": "Milky Way",
+            "temperature": -40,
+            "book_release": "2014-02-11T11:30:30"
+        },
+        {
+            "id": 9,
+            "name": "ABC",
+            "number": 4,
+            "galaxy": "Milky Way",
+            "temperature": -40,
+            "book_release": "2014-02-11T11:30:30"
+        }
+    ]
+}
