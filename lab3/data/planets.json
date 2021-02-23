@@ -1,0 +1,239 @@
+{
+    "nextId": 41,
+    "items": [
+        {
+            "id": 1,
+            "name": "Earth",
+            "number": 3,
+            "galaxy": "Milky Way",
+            "temperature": 45,
+            "book_release": "1986-10-13",
+            "photoUrl": "/media/5.jpeg"
+        },
+        {
+            "id": 2,
+            "name": "MARS",
+            "number": 4,
+            "galaxy": "Milky Way",
+            "temperature": -40,
+            "book_release": "2014-02-11T11:30:30",
+            "photoUrl": "/media/5.jpeg"
+        },
+        {
+            "id": 7,
+            "name": "planet",
+            "number": "12",
+            "galaxy": "asd",
+            "temperature": "21",
+            "book_release": "2012-02-11T00:00:00.000Z",
+            "photoUrl": "/media/5.jpeg"
+        },
+        {
+            "id": 8,
+            "name": "MAAAAAARS",
+            "number": 4,
+            "galaxy": "Milky Way",
+            "temperature": -40,
+            "book_release": "2014-02-11T11:30:30",
+            "photoUrl": "/media/5.jpeg"
+        },
+        {
+            "id": 9,
+            "name": "ABC",
+            "number": 4,
+            "galaxy": "Milky Way",
+            "temperature": -40,
+            "book_release": "2014-02-11T11:30:30",
+            "photoUrl": "/media/5.jpeg"
+        },
+        {
+            "id": 17,
+            "name": "ABC",
+            "number": 4,
+            "galaxy": "Milky Way",
+            "temperature": -40,
+            "book_release": "2014-02-11T11:30:30",
+            "photoUrl": "/media/5.jpeg"
+        },
+        {
+            "id": 18,
+            "name": "ABC",
+            "number": 4,
+            "galaxy": "Milky Way",
+            "temperature": -40,
+            "book_release": "2014-02-11T11:30:30",
+            "photoUrl": "/media/5.jpeg"
+        },
+        {
+            "id": 19,
+            "name": "ABC",
+            "number": 4,
+            "galaxy": "Milky Way",
+            "temperature": -40,
+            "book_release": "2014-02-11T11:30:30",
+            "photoUrl": "/media/5.jpeg"
+        },
+        {
+            "id": 20,
+            "name": "ABC",
+            "number": 4,
+            "galaxy": "Milky Way",
+            "temperature": -40,
+            "book_release": "2014-02-11T11:30:30",
+            "photoUrl": "/media/5.jpeg"
+        },
+        {
+            "id": 21,
+            "name": "ABC",
+            "number": 4,
+            "galaxy": "Milky Way",
+            "temperature": -40,
+            "book_release": "2014-02-11T11:30:30",
+            "photoUrl": "/media/5.jpeg"
+        },
+        {
+            "id": 22,
+            "name": "ABC",
+            "number": 4,
+            "galaxy": "Milky Way",
+            "temperature": -40,
+            "book_release": "2014-02-11T11:30:30",
+            "photoUrl": "/media/5.jpeg"
+        },
+        {
+            "id": 23,
+            "name": "ABC",
+            "number": 4,
+            "galaxy": "Milky Way",
+            "temperature": -40,
+            "book_release": "2014-02-11T11:30:30",
+            "photoUrl": "/media/5.jpeg"
+        },
+        {
+            "id": 24,
+            "name": "ABC",
+            "number": 4,
+            "galaxy": "Milky Way",
+            "temperature": -40,
+            "book_release": "2014-02-11T11:30:30",
+            "photoUrl": "/media/5.jpeg"
+        },
+        {
+            "id": 26,
+            "name": "ABC",
+            "number": 4,
+            "galaxy": "Milky Way",
+            "temperature": -40,
+            "book_release": "2014-02-11T11:30:30",
+            "photoUrl": "/media/5.jpeg"
+        },
+        {
+            "id": 27,
+            "name": "ABC",
+            "number": 4,
+            "galaxy": "Milky Way",
+            "temperature": -40,
+            "book_release": "2014-02-11T11:30:30",
+            "photoUrl": "/media/5.jpeg"
+        },
+        {
+            "id": 28,
+            "name": "ABC",
+            "number": 4,
+            "galaxy": "Milky Way",
+            "temperature": -40,
+            "book_release": "2014-02-11T11:30:30",
+            "photoUrl": "/media/5.jpeg"
+        },
+        {
+            "id": 29,
+            "name": "ABC",
+            "number": 4,
+            "galaxy": "Milky Way",
+            "temperature": -40,
+            "book_release": "2014-02-11T11:30:30",
+            "photoUrl": "/media/5.jpeg"
+        },
+        {
+            "id": 30,
+            "name": "ABC",
+            "number": 4,
+            "galaxy": "Milky Way",
+            "temperature": -40,
+            "book_release": "2014-02-11T11:30:30",
+            "photoUrl": "/media/5.jpeg"
+        },
+        {
+            "id": 31,
+            "name": "ABC",
+            "number": 4,
+            "galaxy": "Milky Way",
+            "temperature": -40,
+            "book_release": "2014-02-11T11:30:30",
+            "photoUrl": "/media/5.jpeg"
+        },
+        {
+            "id": 32,
+            "name": "ABC",
+            "number": 4,
+            "galaxy": "Milky Way",
+            "temperature": -40,
+            "book_release": "2014-02-11T11:30:30",
+            "photoUrl": "/media/5.jpeg"
+        },
+        {
+            "id": 33,
+            "name": "ABC",
+            "number": 4,
+            "galaxy": "Milky Way",
+            "temperature": -40,
+            "book_release": "2014-02-11T11:30:30",
+            "photoUrl": "/media/5.jpeg"
+        },
+        {
+            "id": 34,
+            "name": "ABC",
+            "number": 4,
+            "galaxy": "Milky Way",
+            "temperature": -40,
+            "book_release": "2014-02-11T11:30:30",
+            "photoUrl": "/media/5.jpeg"
+        },
+        {
+            "id": 35,
+            "name": "striiiiiiiiiiiiiiiiing",
+            "number": 12,
+            "galaxy": "striiiiiiiiiiiiiiiiing",
+            "temperature": 21,
+            "book_release": "2012-05-05",
+            "photoUrl": "/media/5.jpeg"
+        },
+        {
+            "id": 36,
+            "name": "shiiiiit",
+            "number": 0,
+            "galaxy": "string",
+            "temperature": 0,
+            "book_release": "2005-05-05",
+            "photoUrl": "/media/5.jpeg"
+        },
+        {
+            "id": 37,
+            "name": "string",
+            "number": 0,
+            "galaxy": "string",
+            "temperature": 0,
+            "book_release": "2002-07-11",
+            "photoUrl": "/media/5.jpeg"
+        },
+        {
+            "id": 39,
+            "name": "qwe",
+            "number": 123,
+            "galaxy": "ewq",
+            "temperature": 12,
+            "book_release": "2020-12-18",
+            "photoUrl": "/media/11.png"
+        }
+    ]
+}

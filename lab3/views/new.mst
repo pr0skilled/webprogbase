@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+{{> head}}
+
+<body>
+
+    {{> header}}
+    
+    <div class="newPlanetInfo">
+        <form class="newForm" method="POST" action="/planets" enctype="multipart/form-data">
+            <p>New planet</p>
+            <div class="newStructure">
+                <div><p>name:</p><input type="text" name="name" required></div><br>
+                <div><p>number:</p><input type="number" name="number" required></div><br>
+                <div><p>galaxy:</p><input type="text" name="galaxy" required></div><br>
+                <div><p>temperature:</p><input type="number" name="temperature" required></div><br>
+                <div><p>book_release:</p><input type="date" name="book_release" required></div><br>
+                <div><p>photo:</p><input class="fileUpload" type="file" name="photoUrl" required></div><br>
+                <input class="inputSubmit" type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+
+    {{> footer}}
+
+</body>
+
+</html>

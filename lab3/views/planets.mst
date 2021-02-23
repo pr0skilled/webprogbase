@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+{{> head}}
+
+<body>
+
+    {{> header}}
+
+    <div class="bigDiv">
+        <div class="mainPlanets">
+            <p class="entityPlanet">Planets</p>
+            <table>
+                <tr>
+                    <th>name</th>
+                    <th>number</th>
+                    <th>galaxy</th>
+                    <th>temperature</th>
+                    <th>book release date</th>
+                </tr>
+                <tr>
+                {{#planets}}
+                <tr>
+                    <td><a href="/planets/{{id}}">{{name}}</a></td>
+                    <td>{{number}}</td>
+                    <td>{{galaxy}}</td>
+                    <td>{{temperature}}</td>
+                    <td>{{book_release}}</td>
+                </tr>
+                {{/planets}}
+                </tr>
+            </table>
+            {{^planets}}
+                <p class="notFound">No planets found :(<p>
+            {{/planets}}
+        </div>
+        <div class="paginationDiv">
+            <div class="search">
+    
+                <form method="get" action="/planets">
+                    <div class="nameSearch">
+                        {{#pages}}
+                        {{#namePage}}
+                            <input class="nameInput" type="text" name="name" placeholder="Enter name" value={{namePage}}>
+                        {{/namePage}}
+                        {{^namePage}}
+                            <input class="nameInput" type="text" name="name" placeholder="Enter name">
+                        {{/namePage}}
+                        <button class="findButtonFixed">Find</button>
+                        {{/pages}}
+                    </div>
+                </form>
+    
+                <form method="get" action="/planets">
+                    <div class="pageSearch">
+                        {{#pages}}
+                            {{#prevPage}}
+                                {{#namePage}}
+                                <a class="prev" href="/planets?page={{prevPage}}&name={{namePage}}">Previous</a>
+                                {{/namePage}}
+                                {{^namePage}}
+                                <a class="prev" href="/planets?page={{prevPage}}">Previous</a>
+                                {{/namePage}}
+                            {{/prevPage}}
+                            {{^prevPage}}
+                                <span class="prev">Previous</span>
+                            {{/prevPage}}
+                            <input type="number" class="currentPageNumber" name="page" min="1" max="{{pagesNumber}}" value={{currentPage}}>
+                            {{#namePage}}
+                                <input type="hidden" name="name" value={{namePage}}>
+                            {{/namePage}}
+                            <p class="slash"> / </p>
+                            <p class="pageNumber">{{pagesNumber}}</p>
+                            {{#nextPage}}
+                                {{#namePage}}
+                                <a class="next" href="/planets?page={{nextPage}}&name={{namePage}}">Next</a>
+                                {{/namePage}}
+                                {{^namePage}}
+                                <a class="next" href="/planets?page={{nextPage}}">Next</a>
+                                {{/namePage}}
+                            {{/nextPage}}
+                            {{^nextPage}}
+                                <span class="next">Next</span>
+                            {{/nextPage}}
+                            <button class="findButtonFixed">Move</button>
+                        {{/pages}}
+                    </div>
+                </form>
+
+                <div class="specialAContainer">
+                <a class="goToNewPlanet" href="/planets/new">New Planet</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    {{> footer}}
+
+</body>
+
+</html>

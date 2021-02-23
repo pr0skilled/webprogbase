@@ -1,0 +1,23 @@
+{
+  "nextId": 3,
+  "items": [
+    {
+      "id": 1,
+      "login": "admin",
+      "fullname": "Admin Admin",
+      "role": 1,
+      "registeredAt": "2020-01-10",
+      "avaUrl": "https://cutt.ly/QgrUZtK",
+      "isEnabled": true
+    },
+    {
+      "id": 2,
+      "login": "testUser",
+      "fullname": "Test User",
+      "role": 1,
+      "registeredAt": "2020-29-09",
+      "avaUrl": "/media/5.jpeg",
+      "isEnabled": false
+    }
+  ]
+}
