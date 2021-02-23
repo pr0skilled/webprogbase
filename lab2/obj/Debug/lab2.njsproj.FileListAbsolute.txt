@@ -1,6 +1,0 @@
-C:\Users\pr0skilled\dev\webprogbase\labs\lab2\obj\Debug\lab2.njsprojAssemblyReference.cache
-C:\Users\pr0skilled\dev\webprogbase\labs\lab2\obj\Debug\lab2.njsproj.CoreCompileInputs.cache
-C:\Users\pr0skilled\dev\webprogbase\labs\lab2\bin\Microsoft.NodejsTools.WebRole.dll
-C:\Users\pr0skilled\Documents\GitHub\webprogbase\lab2\obj\Debug\lab2.njsprojAssemblyReference.cache
-C:\Users\pr0skilled\Documents\GitHub\webprogbase\lab2\obj\Debug\lab2.njsproj.CoreCompileInputs.cache
-C:\Users\pr0skilled\Documents\GitHub\webprogbase\lab2\bin\Microsoft.NodejsTools.WebRole.dll
