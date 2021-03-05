@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+{{> head}}
+
+<body>
+
+    {{#planet}}
+    <div class="backToPlanets">
+        <a href="../planets">Back to Planets</a>
+    </div>
+    <div class="planetInfo">
+        <div class="photoUrl">
+            <img src="{{photoUrl}}" alt="{{photoUrl}}">
+        </div>
+        <div class="otherPlanetInfo">
+            <p class="name"><b>{{name}}</b></p>
+            <p class="number"><b>number: {{number}}</b></p>
+            <p class="galaxy"><b>galaxy: {{galaxy}}</b></p>
+            <p class="temperature">temperature: {{temperature}}</p>
+            <p class="book_release">book_release: {{book_release}}</p>
+            <form method="POST" action="/planets/{{id}}">
+                <input class="deleteInput" type="submit" value="Delete this planet">
+            </form>
+        </div>
+    </div>
+    {{/planet}}
+
+    {{> footer}}
+
+</body>
+
+</html>

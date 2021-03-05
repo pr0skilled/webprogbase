@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+{{> head}}
+
+<body>
+
+    {{> header}}
+
+    <div class="aboutInfo">
+        <p>Creator: Alex</p>
+        <p>Created: 22-11-2022</p>
+        <p>Contact info: ...</p>
+        <p>Gmail: qwerty@gmail.com</p>
+        <p>Address: Klushina str.</p>
+        <p>Phone: 000-000-00-00</p>
+    </div>
+
+    {{> footer}}
+
+</body>
+</html>

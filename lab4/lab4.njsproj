@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{13a332e8-f48d-46f2-af86-fdc90734042d}</ProjectGuid>
+    <ProjectGuid>{27be9791-ba11-4b4a-b8bb-f7b2f875d54a}</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <ProjectView>ShowAllFiles</ProjectView>
     <StartupFile>app.js</StartupFile>
@@ -12,48 +12,55 @@
     <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">16.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <StartWebBrowser>False</StartWebBrowser>
+    <SaveNodeJsSettingsInProjectFile>True</SaveNodeJsSettingsInProjectFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
-    <Content Include="models\race.js">
+    <Content Include=".env">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="package-lock.json" />
+    <Content Include="config.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="controllers\raceController.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="package.json" />
     <Content Include="app.js" />
     <Content Include="controllers\mediaController.js" />
     <Content Include="controllers\planetController.js" />
     <Content Include="controllers\userController.js" />
-    <Content Include="data\media.json" />
-    <Content Include="data\planets.json" />
-    <Content Include="data\users.json" />
-    <Content Include="models\media.js" />
     <Content Include="models\planet.js" />
+    <Content Include="models\race.js" />
     <Content Include="models\user.js" />
-    <Content Include="repositories\jsonStorage.js" />
-    <Content Include="repositories\mediaRepository.js" />
+    <Content Include="repositories\index.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="repositories\planetRepository.js" />
+    <Content Include="repositories\raceRepository.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="repositories\userRepository.js" />
+    <Content Include="public\images\logo.PNG" />
+    <Content Include="public\stylesheets\style.css" />
     <Content Include="routes\apiRouter.js" />
     <Content Include="routes\mediaRouter.js" />
     <Content Include="routes\planetRouter.js" />
+    <Content Include="routes\raceRouter.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="routes\userRouter.js" />
-    <Content Include="data\media\6.png" />
-    <Content Include="data\media\8.png" />
-    <Content Include="public\images\logo.PNG" />
-    <Content Include="public\stylesheets\style.css" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="controllers" />
-    <Folder Include="data" />
-    <Folder Include="data\media" />
     <Folder Include="models" />
     <Folder Include="public" />
     <Folder Include="public\images" />
     <Folder Include="public\stylesheets" />
     <Folder Include="repositories" />
-    <Folder Include="routes" />
+    <Folder Include="routes\" />
     <Folder Include="views" />
     <Folder Include="views\partials" />
   </ItemGroup>
